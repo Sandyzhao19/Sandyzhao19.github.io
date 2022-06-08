@@ -1,0 +1,278 @@
+@font-face {
+    font-family: GeographMedium;
+    src: url(fonts/geographwebmedium.ttf);
+  }
+
+@font-face {
+    font-family: GeographBold;
+    src: url(fonts/geographeditwebbold.ttf);
+}
+
+@font-face {
+    font-family: GeographRegularItalic;
+    src: url(fonts/geographeditwebregularitalic.ttf);
+}
+
+@font-face {
+    font-family: GeographRegular;
+    src: url(fonts/geographeditwebregular.ttf);
+}
+
+.main {
+    padding: 50px 0 0 0;
+    display: flex;
+    justify-content: space-between;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.main.content {
+    flex: 0 1 65%;
+}
+
+.footer--top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.audio {
+    width: 100% !important;
+}
+
+/*General body styling*/
+h1 {
+    font-family: GeographMedium, Helvetica, sans-serif;
+    color: #573E99;
+    font-size: 24px;
+}
+
+h2 {
+    font-family: GeographMedium, Helvetica, sans-serif;
+    color: #049455;
+    font-size: 36px; 
+}
+
+h3 {
+    font-family: GeographBold, Helvetica, sans-serif;
+    color: #573E99;
+    font-size: 18px; 
+}
+
+h4 {
+    font-family: GeographRegularItalic, Helvetica, sans-serif;
+    color: #000000;
+    font-size: 16px; 
+}
+
+h4 {
+    font-family: GeographRegularItalic, Helvetica, sans-serif;
+    color: #000000;
+    font-size: 16px; 
+}
+
+h5 {
+    font-family: GeographBold, Helvetica, sans-serif;
+    color: #000000;
+    font-size: 14px; 
+}
+
+h6 {
+    font-family: GeographRegular, Helvetica, sans-serif;
+    color: #000000;
+    font-size: 12px; 
+}
+
+p {
+    font-family: GeographRegular, Helvetica, sans-serif;
+    color: #000000;
+    font-size: 16px; 
+    text-align: left;
+    margin: 10px 0 10px 0;
+}
+
+audio {
+    width: 100%;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+body {
+    margin: auto;
+    text-align: center;
+}
+
+.audiofield label {
+    display: none;
+}
+
+.btn-primary {
+    background-color: transparent;
+    border: 3px solid #049455;
+    border-radius: 5px;
+    color: #049455;
+    text-decoration: none;
+    min-width: 250px;
+}
+
+.btn-primary h2 {
+    padding-top: 5px;
+}
+
+.btn-primary:hover {
+    background-color: #d0eadd;
+    border: 3px solid #049455;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+}
+
+.btn-primary:active {
+    background-color: #d0eadd;
+    border: 3px solid #049455;
+}
+
+/* Title styling */
+.field--name-field-exhibition-logo {
+    width: 80%;
+}
+
+.page-title {
+    text-transform: uppercase;
+    padding-top: 20px;
+    padding-bottom: 18px;
+    letter-spacing: 5px;
+}
+
+/* Content styling */
+.field--name-field-exhibition-logo img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 120%;
+    margin-top: -30px;
+}
+
+.carousel-inner img {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.field--name-field-feature-image {
+    padding: 0 10px 30px 10px;
+}
+
+.exhibition-description {
+    background-color: #EEEEEE;
+    padding: 30px;
+}
+
+.exibit-play-btn {
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.exhibit-transcript {
+    background-color: #EEEEEE;
+    padding: 30px;
+    margin-top: 20px;
+    text-align: left;
+    max-height: 400px;
+}
+
+.exhibit-transcript-subtitle {
+    padding-top: 10px;
+}
+
+.credits {
+    margin: 40px;
+}
+
+.exhibition-back-btn {
+    margin-bottom: 40px;
+}
+
+/*Footer styling*/
+footer#footer {
+    background-color: #573E99;
+    padding: 10px 0 10px 0;
+}
+
+.footer--top {
+    max-width: 450px;
+    margin: auto;
+}
+
+footer p {
+    color: white;
+    font-size: 13px;
+    text-align: center;
+}
+
+.exhibit-footer {
+    margin-bottom: 50px;
+}
+
+#block-moadaudiotour-websiteby {
+    padding: 0 10px 0 10px;
+}
+
+/*Link styling*/
+a {
+    color: white;
+    text-decoration: underline;
+}
+
+a:hover, a:focus {
+    color: #CF4536;
+}
+
+/* Audio Player */
+.audiofield-player audio {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+}
+
+/* For tablet and desktop */
+@media only screen and (min-width: 768px) {
+    h1 {
+        font-size: 35px;
+    }
+
+    h2 {
+        font-size: 45px;
+    }
+
+    h3 {
+        font-size: 30px;
+    }
+
+    h5 {
+        font-size: 25px;
+    }
+
+    p {
+        font-size: 33px;
+    }
+
+    .btn-primary {
+        font-size: 35px;
+        min-width: 350px;
+    }
+
+    footer p {
+        font-size: 20px;
+    }
+
+    .exhibition-description {
+        padding: 50px 50px 50px 50px;
+    }
+
+    .exhibit-transcript {
+        padding: 50px 50px 50px 50px;
+    }
+}
