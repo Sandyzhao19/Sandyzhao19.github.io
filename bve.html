@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="en"><!--
+ __  __                __                                     __
+/\ \/\ \              /\ \             __                    /\ \
+\ \ \_\ \   __  __    \_\ \      __   /\_\      __       ___ \ \ \/'\
+ \ \  _  \ /\ \/\ \   /'_` \   /'__`\ \/\ \   /'__`\    /'___\\ \ , <
+  \ \ \ \ \\ \ \_\ \ /\ \L\ \ /\  __/  \ \ \ /\ \L\.\_ /\ \__/ \ \ \\`\
+   \ \_\ \_\\/`____ \\ \___,_\\ \____\ _\ \ \\ \__/.\_\\ \____\ \ \_\ \_\
+    \/_/\/_/ `/___/> \\/__,_ / \/____//\ \_\ \\/__/\/_/ \/____/  \/_/\/_/
+                /\___/                \ \____/
+                \/__/                  \/___/
+
+Powered by Hydejack v9.1.6 <https://hydejack.com/>
+-->
+
+
+
+
+
+
+
+<head>
+  
+
+
+
+
+
+
+  
+    
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>BVE Trainsim 5 Survival Guide (Windows &amp; Mac) | Austin Huang</title>
+<meta name="generator" content="Jekyll v3.9.3" />
+<meta property="og:title" content="BVE Trainsim 5 Survival Guide (Windows &amp; Mac)" />
+<meta name="author" content="Austin Huang" />
+<meta property="og:locale" content="en" />
+<meta name="description" content="Wanna actually play a realistic train simulator FOR FREE? Try BVE 5! Includes Mac installation and recommended scenarios." />
+<meta property="og:description" content="Wanna actually play a realistic train simulator FOR FREE? Try BVE 5! Includes Mac installation and recommended scenarios." />
+<link rel="canonical" href="https://austinhuang.me/bve.html" />
+<meta property="og:url" content="https://austinhuang.me/bve.html" />
+<meta property="og:site_name" content="Austin Huang" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="BVE Trainsim 5 Survival Guide (Windows &amp; Mac)" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"Austin Huang"},"dateModified":"2023-09-13T18:21:29-05:00","description":"Wanna actually play a realistic train simulator FOR FREE? Try BVE 5! Includes Mac installation and recommended scenarios.","headline":"BVE Trainsim 5 Survival Guide (Windows &amp; Mac)","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://austinhuang.me/assets/icons/android-chrome-512x512.png"},"name":"Austin Huang"},"url":"https://austinhuang.me/bve.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+  
+
+  
+
+
+
+  <meta name="theme-color" content="#bada55">
+
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+
+<meta name="mobile-web-app-capable" content="yes">
+
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Austin Huang">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+
+<meta name="application-name" content="Austin Huang">
+
+<meta name="generator" content="Hydejack v9.1.6" />
+
+
+<link rel="alternate" href="https://austinhuang.me/bve.html" hreflang="en">
+
+<link type="application/atom+xml" rel="alternate" href="https://austinhuang.me/feed.xml" title="Austin Huang" />
+
+
+<link rel="shortcut icon"    href="/assets/icons/favicon.ico">
+<link rel="apple-touch-icon" href="/assets/icons/icon-192x192.png">
+
+<link rel="manifest" href="/assets/site.webmanifest">
+
+
+
+
+
+<link rel="preload" href="/assets/img/swipe.svg" as="image" id="_hrefSwipeSVG">
+
+
+
+
+
+
+<script>!function(r,c){"use strict";function a(e,t,n,o){e.addEventListener?e.addEventListener(t,n,o):e.attachEvent?e.attachEvent("on"+t,n):e["on"+t]=n}r.loadJS=function(e,t){var n=c.createElement("script"),e=(n.src=e,t&&a(n,"load",t,{once:!0}),c.scripts[0]);return e.parentNode.insertBefore(n,e),n},r._loaded=!1,r.loadJSDeferred=function(e,t){var n=c.createElement("script");function o(){r._loaded=!0,t&&a(n,"load",t,{once:!0});var e=c.scripts[0];e.parentNode.insertBefore(n,e)}return n.src=e,r._loaded?o():a(r,"load",o,{once:!0}),n},r.setRel=r.setRelStylesheet=function(e){a(c.getElementById(e),"load",function(){this.rel="stylesheet"},{once:!0})}}(window,document);
+!function(a){"use strict";var b=function(b,c,d){function e(a){return h.body?a():void setTimeout(function(){e(a)})}function f(){i.addEventListener&&i.removeEventListener("load",f),i.media=d||"all"}var g,h=a.document,i=h.createElement("link");if(c)g=c;else{var j=(h.body||h.getElementsByTagName("head")[0]).childNodes;g=j[j.length-1]}var k=h.styleSheets;i.rel="stylesheet",i.href=b,i.media="only x",e(function(){g.parentNode.insertBefore(i,c?g:g.nextSibling)});var l=function(a){for(var b=i.href,c=k.length;c--;)if(k[c].href===b)return a();setTimeout(function(){l(a)})};return i.addEventListener&&i.addEventListener("load",f),i.onloadcssdefined=l,l(f),i};"undefined"!=typeof exports?exports.loadCSS=b:a.loadCSS=b}("undefined"!=typeof global?global:this);
+!function(a){if(a.loadCSS){var b=loadCSS.relpreload={};if(b.support=function(){try{return a.document.createElement("link").relList.supports("preload")}catch(b){return!1}},b.poly=function(){for(var b=a.document.getElementsByTagName("link"),c=0;c<b.length;c++){var d=b[c];"preload"===d.rel&&"style"===d.getAttribute("as")&&(a.loadCSS(d.href,d,d.getAttribute("media")),d.rel=null)}},!b.support()){b.poly();var c=a.setInterval(b.poly,300);a.addEventListener&&a.addEventListener("load",function(){b.poly(),a.clearInterval(c)}),a.attachEvent&&a.attachEvent("onload",function(){a.clearInterval(c)})}}}(this);
+!function(w) {
+  w._baseURL = '/';
+  w._publicPath = '/assets/js/';
+  w._noPushState = false;
+  w._noDrawer = false;
+  w._noNavbar = false;
+  w._noToc = false;
+  w._noSearch = false;
+  w._search = {
+    DATA_URL: '/assets/sitedata.json?no-cache',
+    STORAGE_KEY: 'mini-search/',
+    INDEX_KEY: 'index--2023-09-13T18:22:08-05:00',
+  };
+  w._clapButton = true;
+}(window);</script>
+
+
+
+<!--[if gt IE 8]><!---->
+
+  
+
+
+
+
+<link rel="stylesheet" href="/assets/css/hydejack-9.1.6.css" id="_stylePreload">
+<link rel="stylesheet" href="/assets/icomoon/style.css" id="_iconsPreload">
+
+
+
+
+  <style id="_pageStyle">
+
+html{--accent-color: rgb(76,195,85);--accent-color-faded: rgba(76,195,85,0.5);--accent-color-highlight: rgba(76,195,85,0.1);--accent-color-darkened: #3aae43;--theme-color: #bada55}
+
+</style>
+
+
+<!--<![endif]-->
+
+
+<link rel="stylesheet" href="/assets/font/simple-icons.min.css" type="text/css">
+<meta name="og:image" content="/assets/icons/android-chrome-512x512.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16x16.png">
+<link rel="manifest" href="/assets/icons/site.webmanifest">
+<meta name="msapplication-TileColor" content="#bada55">
+<meta name="msapplication-TileImage" content="/assets/icons/mstile-144x144.png">
+<meta name="msapplication-config" content="/assets/icons/browserconfig.xml">
+<style>
+    .sidebar-social>ul>li>a{
+        line-height: 1rem !important;
+    }
+</style>
+
+
+</head>
+
+<body class="no-break-layout">
+  
+
+
+<hy-push-state
+  id="_pushState"
+  replace-selector="#_main"
+  link-selector="a[href]:not([href^='/assets/']):not(.external):not(.no-push-state)"
+  script-selector="script"
+  duration="500"
+  hashchange
+>
+  
+  
+  <div id="_navbar" class="navbar fixed-top">
+  <div class="content">
+    <span class="sr-only">Jump to:</span>
+    <div class="nav-btn-bar">
+      <a id="_menu" class="nav-btn no-hover" href="#_drawer--opened">
+        <span class="sr-only">Navigation</span>
+        <span class="icon-menu"></span>
+      </a>
+      <div class="nav-span"></div>
+    </div>
+  </div>
+</div>
+<hr class="sr-only" hidden />
+
+  <main
+  id="_main"
+  class="content layout-page"
+  role="main"
+>
+  <nav id="breadcrumbs" class="screen-only"><ul>
+  
+  
+    <li><a href="/">home</a></li>
+    
+      <li>
+        
+          <span>/</span>
+          <span>bve.html</span>
+        
+      </li>
+    
+  
+</ul></nav>
+  <article class="page mb6" role="article">
+  <header>
+    <h1 class="page-title">BVE Trainsim 5 Survival Guide (Windows & Mac)</h1>
+    
+
+
+
+  
+    <p class="note-sm" >
+      Wanna actually play a realistic train simulator FOR FREE? Try BVE 5! Includes Mac installation and recommended scenarios.
+
+    </p>
+  
+
+
+  </header>
+
+  <p><img src="/assets/bve_header.png" alt="header" /></p>
+
+<p>Aight, so hear me out: These train simulators on Steam really cost. Like $30+. Honestly, maybe they’re better in the 3D graphics, but BVE Trainsim 5 could score much better in performance than these costly alternatives.</p>
+
+<h2 id="install">Install</h2>
+<p><strong>This guide only deals with BVE Trainsim 5.x.</strong> Stuff presented below are tested on 5.7, and they should work on 5.8, but they <strong>will not work</strong> on 6 (which is incompatible with 5).</p>
+
+<h3 id="windows">Windows</h3>
+<p>Read official instructions and downloads <a href="http://bvets.net/en/download/">here</a>.</p>
+
+<h3 id="mac">Mac</h3>
+<p>Yes, you can run BVE 5 <strong>on a Mac</strong>. Referenced <a href="https://kakurasan.blogspot.com/2015/07/bve-trainsim-on-wine.html">this blog post</a> (Japanese).</p>
+
+<p><strong>Known issues:</strong> For certain scenarios (not among the ones introduced below), BVE fails to open <em>some</em> .wav files (<code class="language-plaintext highlighter-rouge">Could not open the file</code>). If you have a solution, please please please leave a comment below.</p>
+
+<ol>
+  <li><a href="http://winebottler.kronenberg.org/">Get WineBottler.</a> (2.0 is fine.) Load the disk image, drag both WineBottler and Wine to the Applications folder. (Non-Sudo people: Or any folder you like - I drag to the Downloads folder. But both apps should be in the same folder. I didn’t try otherwise.)</li>
+  <li><a href="http://bvets.net/en/download/zip.html">Get BVE 5 WITHOUT INSTALLER.</a> Unzip it.</li>
+  <li>Launch WineBottler.</li>
+  <li>Click Advanced.</li>
+  <li>For Program Installation, select the <code class="language-plaintext highlighter-rouge">BveTs.exe</code> in the folder.</li>
+  <li>For Installation mode, select “copy file (program) and all files in the folder to the App Bundle.”</li>
+  <li>For System Version Info, select 7. (BVE 5 requires Vista or higher.) 64-bit doesn’t work because <code class="language-plaintext highlighter-rouge">dotnet35</code> wouldn’t install.</li>
+  <li>You MUST tick “Include Mono”. (Or you’ll be forced to exit with an error log, as you cannot get <code class="language-plaintext highlighter-rouge">dotnet35</code>.) “Gecko” doesn’t matter.</li>
+  <li>For Winetricks, find the following and tick them: <code class="language-plaintext highlighter-rouge">dotnet35</code> (MS .NET 3.5), <code class="language-plaintext highlighter-rouge">d3dx9_43</code> (MS d3dx9_43.dll), and <code class="language-plaintext highlighter-rouge">fakejapanese_ipamona</code> (“Creates aliases for Japanese fonts using IPAMona fonts”). If you’re using BVE under v5.7 (i.e. not newest), you also need <code class="language-plaintext highlighter-rouge">mdx</code> (Managed DirectX).</li>
+  <li>Tick Silent Install.</li>
+  <li>Press Install, set file name, and go. Takes like 2 minutes to install, then you get an .app bundle. Off you go!</li>
+</ol>
+
+<p>No, I’m not giving you my pre-bundled app. Probably goes against some rules about sharing.</p>
+
+<h2 id="basic-control">Basic control</h2>
+<p><a href="http://bvets.net/en/drive/index.html">http://bvets.net/en/drive/index.html</a></p>
+
+<p>All number keys on that page are Numpad keys, which are useless on Mac (Use your mouse to drag instead). They do not conflict with ATS/ATC stuff below.</p>
+
+<h2 id="wip-scenarios">(WIP) Scenarios</h2>
+<p>Yes yes, I know many English scenarios are made in BVE 4 or OpenBVE. I know <a href="http://bvets.net/en/download/conv.html">Converter</a> exists, but isn’t it better to play scenarios that actually support 5, without the need to solve bugs?</p>
+<ul>
+  <li>Windows users: Place all Scenarios in <code class="language-plaintext highlighter-rouge">C:\users\&lt;name&gt;\My Documents\BveTs\Scenarios</code>.</li>
+  <li>Mac users: Place all Scenarios in <code class="language-plaintext highlighter-rouge">/Users/&lt;name&gt;/Documents/BveTs/Scenarios</code> (which is equivalent to <code class="language-plaintext highlighter-rouge">~/Documents/BveTs/Scenarios</code>).</li>
+</ul>
+
+<p>All scenarios should contain 1 folder and a bunch of TXT files (Which tells BVE what route to drive) outside the folder. If there’s only 1 folder with nothing else, either it’s a Vehicle file (I’ll indicate) or you forgot to look inside when you unzip. Due to popularity of Shift_JIS encoding in Japan, you should use <a href="https://theunarchiver.com/">The Unarchiver</a> or any equivalent tools to unzip stuff instead of Archive Utility.</p>
+
+<p>I have tested all the scenarios below. ATS/ATC instructions are included. If errors pop up, “ignore” should be enough. I do not include any scenarios that does not feature scenaries (i.e. no buildings, only grass, etc.).</p>
+
+<h3 id="list">List</h3>
+<p>In no particular order.</p>
+
+<ul>
+  <li>mackoy: <a href="#keisei-chihara-line">Keisei Chihara Line</a></li>
+  <li>neclgm: <a href="#tama-toshi-monorail">Tama Toshi Monorail</a> (E) (P)</li>
+  <li>wackey: <a href="#keihan-keishin-line">Keihan Keishin Line</a> (PE) (P)</li>
+  <li>reren: <a href="#tokyo-metro-tozai-line">Tokyo Metro Tozai Line</a> (E) (P)</li>
+  <li>Green Shuttle: (P)
+    <ul>
+      <li><a href="#trta-then-tokyo-metro-hanzomon-line">Tokyo Metro Hanzomon Line</a></li>
+      <li><a href="#trta-then-tokyo-metro-ginza-line">Tokyo Metro Ginza Line</a></li>
+      <li>Tokyo Metro Fukutoshin Line</li>
+      <li><a href="#tokyo-monorail">Tokyo Monorail</a></li>
+    </ul>
+  </li>
+  <li>Bluegill77: <a href="#osaka-metro-yotsubashi-line">Osaka Metro Yotsubashi Line</a> (P)</li>
+  <li>Mc220-78:
+    <ul>
+      <li><a href="#osaka-metro-sakaisuji-line">Osaka Metro Sakaisuji Line</a></li>
+      <li><a href="#keihan-ishiyama-sakamoto-line">Keihan Ishiyama Sakamoto Line</a></li>
+    </ul>
+  </li>
+  <li>L53: <a href="#kyoto-municipal-subway-karasuma-line">Kyoto Municipal Subway Karasuma Line</a></li>
+  <li>L53 / Susubaru: Hankyu lines</li>
+  <li>Gigaclone: Shintetsu (Kobe Electric) Arima Line</li>
+  <li>Nanairo Project: Keisei Line / Toei Asakusa Line / Keikyu Line / Keikyu Airport Line</li>
+</ul>
+
+<h4 id="legend">Legend</h4>
+<ul>
+  <li>(P): Permission obtained for posting</li>
+  <li>(E): Has English version</li>
+  <li>(PE): Partially English (Usually station names)</li>
+  <li>(A): Has audio issues on Mac (see above)</li>
+</ul>
+
+<h3 id="keisei-chihara-line">Keisei Chihara Line</h3>
+<p>The official one. Download <a href="http://bvets.net/en/download/zip.html">here</a>, no additional stuff required. Here’s a walkthrough:</p>
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ocRex0a2jUI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<h3 id="tama-toshi-monorail">Tama Toshi Monorail</h3>
+<p>Download <a href="https://trainpcfan.blogspot.com/2015/01/tama-intercity-monorail-for-bve.html">here</a>. Both the page AND THE SCENARIO is <strong>in English</strong>!</p>
+
+<ul>
+  <li>To start the train from the terminus, you’ll need to press ATS 0 (S) - ATS 13 (J) - ATS 4 (B2), BEFORE releasing the emergency brake or touching the reverser. Your train WILL NOT MOVE if you don’t do so.
+    <ul>
+      <li>On Windows, that is <kbd> SPACE </kbd> - <kbd>8</kbd> - <kbd>END</kbd>. You can also press <kbd>Delete</kbd> for a list of key assignments specific to that scenario.</li>
+      <li>On Mac, or if your Windows computer does not have an <kbd>END</kbd> key, you’ll need to reassign keys. Right click =&gt; Preferences =&gt; Input device =&gt; Key assignments… =&gt; Switches =&gt; Find “ATS 4 (B2)” =&gt; Press the On/Off box below =&gt; Press the key you want to assign (Fn combos accepted, no other combos). If you want to show the in-game key assignment list (Just this game), you’ll need to reassign “ATS 2 (A2)” as well. Do note that the in-game key assignment list only shows default assignments.</li>
+    </ul>
+  </li>
+  <li>Here’s a walkthrough:</li>
+</ul>
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/u58bNLPdQew" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<h3 id="keihan-keishin-line">Keihan Keishin Line</h3>
+<p>Detailed scenary means it’s <strong>Resource-Heavy! Requires good GPU!!!</strong></p>
+
+<p>Download <a href="https://www.like-a-lake.com/bve-trainsim5/bve-keihan-keishin-top.html">here</a>. Find “Mirror site(yahoo box)” and you’ll see two columns: The left with Installer, the right without. You’ll also see a OneDrive link and a Yahoo Box (Japanese) link.</p>
+
+<ul>
+  <li>Station names are in English. <a href="https://www.like-a-lake.com/bve-trainsim5/howtodrive-keishin.html">The manual</a> is in Japanese, but the pictures are in English.</li>
+  <li>To start the train from the terminus, you’ll need to press <kbd>5</kbd> to enable ATS (Or you will not be able to drive - The line does not have ATO), and switch the reverser to the front. Then, <strong>remain on Emergency Brake</strong> until you’re told to depart by the screen message (Or ATS will stop you, reason unknown. If you forgot this: Get back on P0 AND Emergency Brake (By pressing <kbd>/</kbd>), then release it again).</li>
+  <li>Seriously, <strong>abide speed limit.</strong> This is ATS, not ATC, and Deadman’s Switch gets activated extremely often, which will give you a big delay off your schedule.
+    <ul>
+      <li>IF there’s a red light in the bottom-left corner, you’re screwed: You just triggered ATS. To release, Get back on P0 AND Emergency Brake (By pressing <kbd>/</kbd>), then <kbd>6</kbd> (Disable ATS) + <kbd>5</kbd> (Enable ATS).</li>
+    </ul>
+  </li>
+  <li>Here’s a walkthrough:</li>
+</ul>
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Zcpggd-N0pM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<h3 id="tokyo-metro-tozai-line">Tokyo Metro Tozai Line</h3>
+<p>Download <a href="http://tozai.s77.xrea.com/BVE/ETozai.html#%E8%B7%AF%E7%B7%9A%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89">here</a>. Use the English version.</p>
+
+<ul>
+  <li>Vehicles for routes with “(c) vertah” can be downloaded <a href="http://vertah.sakura.ne.jp/bvedata/trta05.html">here</a>. (Scroll to bottom, click the link that says “2013/04/23（05/N05Ver1.1） 123MB”. After unzip, merge it with Scenarios folder.) Vehicles for routes with “(c) maihime” lacks interactive functions and is not recommended.</li>
+  <li>To start, press <kbd>8</kbd> <strong>ONCE</strong> when remaining in <code class="language-plaintext highlighter-rouge">N (P0) EB</code>.</li>
+  <li>Press <kbd>0</kbd> for speedometer lights, <kbd>9</kbd> for wiper (If train has it).</li>
+  <li>Here’s a walkthrough for B1373SR:</li>
+</ul>
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/PxGHRRr6fLk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<h3 id="trta-then-tokyo-metro-hanzomon-line">TRTA (then-Tokyo Metro) Hanzomon Line</h3>
+<p>Download <a href="http://shtr-m.net/bve/hanzomon.html">here</a>. Click the first link wrapped by <code class="language-plaintext highlighter-rouge">&gt;&gt;&lt;&lt;</code> in the first heading. Everything’s in Japanese.</p>
+
+<p>For this scenario, you’ll need to download vehicles.</p>
+<ol>
+  <li>Go <a href="http://vertah.sakura.ne.jp/bvedata/train.html">here</a>.</li>
+  <li>You need 8000, 08, 8590, and 30000. (For TKK 2000, download <a href="http://bve.jpn.org/tokyu2000.html">here</a> instead, but it’s an EXE file. Not tested.)</li>
+  <li>Click the link at the bottom of each box.</li>
+  <li>For 8000: The download link is in the purple box at the bottom of the page. For others: First text link in the second-last box at the bottom.</li>
+  <li>Unzip them and place them in <code class="language-plaintext highlighter-rouge">.../Scenarios/vertah</code>.</li>
+</ol>
+
+<ul>
+  <li>To start E/B1056T (Red background, brown train) from the overground terminus, you’ll need to press <kbd>8</kbd> <strong>ONCE</strong> to enable ATS for Tobu when remaining in <code class="language-plaintext highlighter-rouge">N EB</code>. Then, after arriving at the first underground station, you’ll need to get back to <code class="language-plaintext highlighter-rouge">N EB</code> and press <kbd>8</kbd> <strong>ONCE</strong> again to enable ATC for Metro.</li>
+  <li>To start C/B1367S (Red background, purple train) from the overground terminus, you’ll need to press <kbd>8</kbd> <strong>TWICE</strong> to enable ATS for Tobu when remaining in <code class="language-plaintext highlighter-rouge">N EB</code>. Then, after arriving at the first underground station, you’ll need to get back to <code class="language-plaintext highlighter-rouge">N EB</code> and press <kbd>7</kbd> <strong>ONCE</strong> then <kbd>8</kbd> <strong>ONCE</strong> to enable ATC for Metro.</li>
+  <li>To start B952T (No background, brown train) from the underground terminus, you’ll need to press <kbd>8</kbd> <strong>TWICE</strong> to enable ATC for metro when remaining in <code class="language-plaintext highlighter-rouge">N EB</code>.</li>
+  <li>To start all other trains from the underground terminus, you’ll need to press <kbd>8</kbd> <strong>ONCE</strong> to enable ATC for Metro when remaining in <code class="language-plaintext highlighter-rouge">N EB</code>.</li>
+  <li>B953S is a Not-in-Service train which passes all stations. All others stop at all stations.</li>
+  <li>Press <kbd>0</kbd> for speedometer lights, <kbd>9</kbd> for wiper (If train has it).</li>
+  <li>Here’s a walkthrough for E/B1056T:</li>
+</ul>
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/XDeNjNsnG4I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<h3 id="trta-then-tokyo-metro-ginza-line">TRTA (then-Tokyo Metro) Ginza Line</h3>
+<p>Download the route <a href="http://shtr-m.net/bve/ginza.html">here</a>. Click the first link wrapped by <code class="language-plaintext highlighter-rouge">&gt;&gt;&lt;&lt;</code> in the first heading. Everything’s in Japanese. You need to <a href="http://vertah.sakura.ne.jp/bvedata/trta01.html">download vehicles</a> as well and place them in <code class="language-plaintext highlighter-rouge">.../Scenarios/vertah</code>.</p>
+
+<ul>
+  <li>To start the train, you’ll need to press <kbd>8</kbd> <strong>ONCE</strong> to enable ATC for Metro when remaining in <code class="language-plaintext highlighter-rouge">N P0 EB</code>.</li>
+  <li>Press <kbd>0</kbd> for speedometer lights, <kbd>9</kbd> for wiper.</li>
+  <li>Here’s a walkthrough:</li>
+</ul>
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/tlDv4FQQcd4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<h3 id="tokyo-metro-fukutoshin-line">Tokyo Metro Fukutoshin Line</h3>
+<p>Under testing…</p>
+
+<h3 id="tokyo-monorail">Tokyo Monorail</h3>
+<p>Download the route <a href="http://shtr-m.net/bve/tmk.html">here</a>. Click the first link wrapped by <code class="language-plaintext highlighter-rouge">&gt;&gt;&lt;&lt;</code> in the first heading. Everything’s in Japanese. You need to <a href="http://sigf.sakura.ne.jp/bve_tmk1000.html">download vehicles</a> (Link next to download button) as well.</p>
+
+<ul>
+  <li>An extra vehicle as well as 6 extra scenarios are available <a href="http://sigf.sakura.ne.jp/bve_tmk10000.html">here</a>. Base route pack required.</li>
+  <li>ATC is enabled at all times.</li>
+  <li>Here’s a walkthrough:</li>
+</ul>
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/2uZ46mpW9U8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<h3 id="osaka-metro-yotsubashi-line">Osaka Metro Yotsubashi Line</h3>
+<p>Download <a href="https://iyoiyokohei.wixsite.com/bluegill77/bveyotsubashi-download">here</a>. Click the button below “Route”.</p>
+
+<p>For the vehicle, download <a href="https://yahoo.jp/box/oLvw3q">here</a>. (<a href="https://tetsudo-1998.jimdo.com/bve/%E8%BB%8A%E4%B8%A1%E3%83%87%E3%83%BC%E3%82%BF/">Vehicle documentation</a>)</p>
+
+<ul>
+  <li>To start the train, you’ll need to press <kbd>7</kbd> <strong>ONCE</strong> to enable ATC for Metro when remaining in <code class="language-plaintext highlighter-rouge">N P0 EB</code>. <strong>DO NOT</strong> press <kbd>7</kbd> or <kbd>8</kbd> again as it’ll disable your train (And I don’t see a remedy currently without re-opening the scenario).</li>
+  <li>Here’s a walkthrough:</li>
+</ul>
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/_5xXPNKVxsg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<h3 id="osaka-metro-sakaisuji-line">Osaka Metro Sakaisuji Line</h3>
+<p>Download <a href="http://mudamc22078.blog.fc2.com/blog-entry-254.html">here</a> (link that says BVE5). For vehicle, download <a href="https://sites.google.com/view/fwchbve/top/bve%E3%83%87%E3%83%BC%E3%82%BF%E3%83%BC%E5%85%AC%E9%96%8B/%E9%98%AA%E6%80%A510001300%E7%B3%BB">here</a>. Here’s a walkthrough:</p>
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/tPyhxEeobV0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<h3 id="keihan-ishiyama-sakamoto-line">Keihan Ishiyama Sakamoto Line</h3>
+<p><strong>Not suitable for beginners</strong></p>
+
+<p>Download <a href="http://mudamc22078.blog.fc2.com/blog-entry-271.html">here</a> at the link under “BVE5”. Vehicle included.</p>
+
+<ul>
+  <li>Before departure, and <strong>before switching directions (Neutral), press the</strong> <kbd> SPACE </kbd> <strong>key, and KEEP IT PRESSED!!!</strong> If you release it during your drive, emergency brake will be applied and then you’ll need to reset the ATS… (Windows: At neutral-P0-EB, <kbd>HOME</kbd> and <kbd>END</kbd>; Mac: Consider reassigning keys)</li>
+  <li>Here’s a walkthrough:</li>
+</ul>
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/1ZBJGF014F8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<h3 id="kyoto-municipal-subway-karasuma-line">Kyoto Municipal Subway Karasuma Line</h3>
+<p>Download <a href="https://blogs.yahoo.co.jp/l53_fmkr/27211920.html">here</a>. Vehicles included.</p>
+
+<ul>
+  <li>The driver cab graphics for Train 149 is significantly better than Train 145.</li>
+  <li>Here’s a walkthrough:</li>
+</ul>
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/rWPix3SJKXo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<h2 id="kurumadome-buffer-stop--end-of-the-line">Kurumadome (Buffer Stop = End of the Line)</h2>
+<p>For any issues, please <a href="https://austinhuang.me/contact">contact me</a> or comment below. I can respond in Mandarin or English. Japanese emails will be accepted (I can read Japanese, didn’t I tell you that?) but I’ll only reply in English.</p>
+
+<p>Licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.</p>
+
+<p>Header made using <a href="https://tr246.github.io/Sigene/">Sigene</a>.</p>
+
+<p>このサイトはリンクフリーです。リンクの際にこのバナー (<a href="https://raw.ratelimited.me/bqdbu307pq.png">フルサイズ</a> / <a href="https://raw.ratelimited.me/m0nz6mblsr.png">200x110</a>) にご利用ください。お問い合わせは <code class="language-plaintext highlighter-rouge">im アット austinhuang ドット me</code> へ（日本語片対応、返信は英語のみ）。</p>
+
+</article>
+
+
+  <hr class="dingbat related mb6" />
+
+
+
+
+
+  
+<footer class="content" role="contentinfo">
+  <hr/>
+  
+  
+    <nav class="legal"><small>
+    
+      
+      <a class="heading flip-title" href="/license.html">License</a>
+      |
+    
+      
+      <a class="heading flip-title" href="/legal.html">Legal</a>
+      
+    
+    </small></nav>
+  
+    <p><small>Powered by <a class="external" href="https://hydejack.com/">Hydejack</a> v<span id="_version">9.1.6</span></small></p>
+  <hr class="sr-only"/>
+</footer>
+
+
+</main>
+
+  <hy-drawer
+  id="_drawer"
+  class=""
+  side="left"
+  threshold="10"
+  noscroll
+  
+>
+  <header id="_sidebar" class="sidebar" role="banner">
+    
+
+
+
+
+<div class="sidebar-bg sidebar-overlay" style="background-color:#bada55;background-image:url(/assets/sidebar-bg.jpg)"></div>
+
+    <div class="sidebar-sticky">
+  <div class="sidebar-about">
+    
+      <a class="no-hover" href="/" tabindex="-1">
+        <img src="/assets/icons/android-chrome-512x512.png" class="avatar" alt="Austin Huang" width="120" height="120" loading="lazy" />
+      </a>
+    
+    <a class="sidebar-title" href="/"><h2 class="h1">Austin Huang</h2></a>
+    
+    
+      <p class="">
+        Code • Manage • Life
+
+      </p>
+    
+  </div>
+
+  <nav class="sidebar-nav heading" role="navigation">
+    <span class="sr-only">Navigation:</span>
+<ul>
+  
+    
+      
+      <li>
+        <a
+          id="_drawer--opened"
+          href="/donate.html"
+          class="sidebar-nav-item "
+          
+        >
+          gib money
+        </a>
+      </li>
+    
+  
+</ul>
+
+  </nav>
+
+  
+  <div class="sidebar-social">
+    <span class="sr-only">Social:</span>
+<ul>
+  
+    
+      
+
+
+
+  
+
+  
+  
+  
+  
+
+  
+
+  
+
+  <li>
+    <a href="https://github.com/austinhuang0131" title="GitHub" class="no-mark-external">
+      <span class="si-github"></span>
+      <span class="sr-only">GitHub</span>
+    </a>
+  </li>
+
+
+    
+      
+
+
+
+  
+
+  
+  
+  
+  
+
+  
+
+  
+
+  <li>
+    <a href="https://www.linkedin.com/in/austinhuang0131" title="LinkedIn" class="no-mark-external">
+      <span class="si-linkedin"></span>
+      <span class="sr-only">LinkedIn</span>
+    </a>
+  </li>
+
+
+    
+      
+
+
+
+  
+
+  
+  
+  
+  
+
+  
+
+  
+
+  <li>
+    <a href="https://matrix.to/#/@austin:tchncs.de" title="Matrix" class="no-mark-external">
+      <span class="si-matrix"></span>
+      <span class="sr-only">Matrix</span>
+    </a>
+  </li>
+
+
+    
+      
+
+
+
+  
+
+  
+  
+  
+  
+
+  
+
+  
+
+  <li>
+    <a href="https://mstdn.ca/@austin" title="Mastodon" class="no-mark-external">
+      <span class="si-mastodon"></span>
+      <span class="sr-only">Mastodon</span>
+    </a>
+  </li>
+
+
+    
+      
+
+
+
+  
+
+  
+  
+  
+  
+
+  
+
+  
+
+  <li>
+    <a href="https://www.reddit.com/user/austinhuang" title="reddit" class="no-mark-external">
+      <span class="si-reddit"></span>
+      <span class="sr-only">reddit</span>
+    </a>
+  </li>
+
+
+    
+  
+</ul>
+
+  </div>
+</div>
+  </header>
+</hy-drawer>
+<hr class="sr-only" hidden />
+
+</hy-push-state>
+
+
+  <!--[if gt IE 10]><!---->
+  <script nomodule>!function(){var t,n=document.createElement("script");!("noModule"in n)&&"onbeforeload"in n&&(t=!1,document.addEventListener("beforeload",function(e){if(e.target===n)t=!0;else if(!e.target.hasAttribute("nomodule")||!t)return;e.preventDefault()},!0),n.type="module",n.src=".",document.head.appendChild(n),n.remove())}();
+</script>
+  <script src="/assets/js/hydejack-9.1.6.js" type="module"></script>
+  <script src="/assets/js/LEGACY-hydejack-9.1.6.js" nomodule defer></script>
+  
+
+  
+
+<!--<![endif]-->
+  
+
+
+<div hidden>
+  
+  <h2 class="sr-only">Templates (for web app):</h2>
+
+  <template id="_animation-template">
+  <div class="animation-main fixed-top">
+    <nav id="breadcrumbs" class="screen-only"><ul>
+  
+  
+</ul></nav>
+    <div class="content">
+      <div class="page"></div>
+    </div>
+  </div>
+</template>
+
+  <template id="_loading-template">
+  <div class="loading nav-btn fr">
+    <span class="sr-only">Loading…</span>
+    <span class="icon-cog"></span>
+  </div>
+</template>
+
+  <template id="_error-template">
+  <div class="page">
+    <h1 class="page-title">Error</h1>
+    
+    
+    <p class="lead">
+      Sorry, an error occurred while loading <a class="this-link" href=""></a>.
+
+    </p>
+  </div>
+</template>
+
+  <template id="_permalink-template">
+  <a href="#" class="permalink">
+    <span class="sr-only">Permalink</span>
+    <span class="content-hash"></span>
+  </a>
+</template>
+
+</div>
+
+
+</body>
+</html>
