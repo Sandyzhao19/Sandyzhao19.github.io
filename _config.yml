@@ -49,8 +49,8 @@ author:
 
 # Add links to the sidebar.
 menu:
-  - title:             gib money
-    url:               /donate.html
+  - title:             About
+    url:               /about.html
 
 legal:
   - title: License
