@@ -3,13 +3,6 @@ title: License
 permalink: /license
 ---
 
-For website contents:
-
-* All [guides](./guides.html) are licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), unless otherwise specified.
-* All rights reserved for everything else.
-
-Hydejack requires [placing GPLv3](https://hydejack.com/CHANGELOG/#license-change) in the repository, so here it is. Also see [notice](https://hydejack.com/NOTICE/).
-
 ## GNU GENERAL PUBLIC LICENSE
 
 Version 3, 29 June 2007
