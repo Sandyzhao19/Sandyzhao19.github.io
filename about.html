@@ -21,16 +21,13 @@ Powered by Hydejack v9.1.6 <https://hydejack.com/>
     <meta property="og:title" content="About" />
     <meta name="author" content="Sandy Zhao" />
     <meta property="og:locale" content="en" />
-    <meta
-      name="description"
-      content="About"
-    />
-    <meta
-      property="og:description"
-      content="About"
-    />
+    <meta name="description" content="Sandy is on her life journey." />
+    <meta property="og:description" content="Sandy is on her life journey." />
     <link rel="canonical" href="https://sandyzhao19.github.io/about.html" />
-    <meta property="og:url" content="https://sandyzhao19.github.io/about.html" />
+    <meta
+      property="og:url"
+      content="https://sandyzhao19.github.io/about.html"
+    />
     <meta property="og:site_name" content="Sandy Zhao" />
     <meta property="og:type" content="website" />
     <meta name="twitter:card" content="summary" />
@@ -38,16 +35,17 @@ Powered by Hydejack v9.1.6 <https://hydejack.com/>
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
-        "@type": "WebPage",
+        "@type": "WebSite",
         "author": { "@type": "Person", "name": "Sandy Zhao" },
         "dateModified": "2023-09-13T18:21:29-05:00",
-        "description": "About",
+        "description": "Sandy is on her life journey.",
         "headline": "About",
+        "name": "Sandy Zhao",
         "publisher": {
           "@type": "Organization",
           "logo": {
             "@type": "ImageObject",
-            "url": "https://sandyzhao19.github.io/assets/icons/favicon.icog"
+            "url": "https://sandyzhao19.github.io/assets/icons/favicon.ico"
           },
           "name": "Sandy Zhao"
         },
@@ -84,8 +82,8 @@ Powered by Hydejack v9.1.6 <https://hydejack.com/>
     <link
       type="application/atom+xml"
       rel="alternate"
-      href="https://austinhuang.me/feed.xml"
-      title="Austin Huang"
+      href="https://sandyzhao19.github.io/feed.xml"
+      title="Sandy Zhao"
     />
 
     <link rel="shortcut icon" href="/assets/icons/favicon.ico" />
@@ -272,7 +270,7 @@ Powered by Hydejack v9.1.6 <https://hydejack.com/>
       href="/assets/font/simple-icons.min.css"
       type="text/css"
     />
-    <meta name="og:image" content="/assets/icons/android-chrome-512x512.png" />
+    <meta name="og:image" content="/assets/icons/favicon.ico" />
     <link
       rel="icon"
       type="image/png"
@@ -311,72 +309,14 @@ Powered by Hydejack v9.1.6 <https://hydejack.com/>
       duration="500"
       hashchange
     >
-      <div id="_navbar" class="navbar fixed-top">
-        <div class="content">
-          <span class="sr-only">Jump to:</span>
-          <div class="nav-btn-bar">
-            <a id="_menu" class="nav-btn no-hover" href="#_drawer--opened">
-              <span class="sr-only">Navigation</span>
-              <span class="icon-menu"></span>
-            </a>
-            <div class="nav-span"></div>
-          </div>
-        </div>
-      </div>
-      <hr class="sr-only" hidden />
-
-      <main id="_main" class="content layout-page" role="main">
-        <nav id="breadcrumbs" class="screen-only">
-          <ul>
-            <li><a href="/">home</a></li>
-
-            <li>
-              <span>/</span>
-              <span>About</span>
-            </li>
-          </ul>
-        </nav>
-        <article class="page mb6" role="article">
-          <header>
-            <h1 class="page-title">About</h1>
-
-            <div>í
-                <h2>Hello world!</h2>
-                <p>Hi there, I'm Sandy.</p>
-                <p>I'm an adventurer, a dreamer and a developer.</p>
-                <p>I'm currently working at <a href="https://gymaware.com/">GymAware</a> as a web application developer and <a href="https://www.anu.edu.au/">Australian National University</a> as an academic tutor.</p>
-                <p>I come from Shanghai, China and live in Canberra, Australia after I completed my study.</p>
-                <p>Pleaseh check my resume if you wish to know more about me.</p>
-              </div>
-          </header>
-        </article>
-
-        <hr class="dingbat related mb6" />
-
-        <footer class="content" role="contentinfo">
-          <hr />
-
-          <nav class="legal">
-            <small>
-              <a class="heading flip-title" href="/license.html">License</a>
-              |
-
-              <a class="heading flip-title" href="/legal.html">Legal</a>
-            </small>
-          </nav>
-
-          <p>
-            <small
-              >Powered by
-              <a class="external" href="https://hydejack.com/">Hydejack</a>
-              v<span id="_version">9.1.6</span></small
-            >
-          </p>
-          <hr class="sr-only" />
-        </footer>
-      </main>
-
-      <hy-drawer id="_drawer" class="" side="left" threshold="10" noscroll>
+      <hy-drawer
+        id="_drawer"
+        class="cover"
+        side="left"
+        threshold="10"
+        noscroll
+        opened
+      >
         <header id="_sidebar" class="sidebar" role="banner">
           <div
             class="sidebar-bg sidebar-overlay"
@@ -399,9 +339,9 @@ Powered by Hydejack v9.1.6 <https://hydejack.com/>
                 />
               </a>
 
-              <a class="sidebar-title" href="/"
-                ><h2 class="h1">Sandy Zhao</h2></a
-              >
+              <a class="sidebar-title" href="/">
+                <h2 class="h1">Sandy Zhao</h2>
+              </a>
 
               <p class="">Code • Food • Life</p>
             </div>
@@ -416,6 +356,16 @@ Powered by Hydejack v9.1.6 <https://hydejack.com/>
                     class="sidebar-nav-item"
                   >
                     About
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    id="_drawer--opened"
+                    href="/portfolio.html"
+                    class="sidebar-nav-item"
+                  >
+                    Portfolio
                   </a>
                 </li>
               </ul>
@@ -462,6 +412,95 @@ Powered by Hydejack v9.1.6 <https://hydejack.com/>
         </header>
       </hy-drawer>
       <hr class="sr-only" hidden />
+
+      <div id="_navbar" class="navbar fixed-top">
+        <div class="content">
+          <span class="sr-only">Jump to:</span>
+          <div class="nav-btn-bar">
+            <a id="_menu" class="nav-btn no-hover" href="#_drawer--opened">
+              <span class="sr-only">Navigation</span>
+              <span class="icon-menu"></span>
+            </a>
+            <div class="nav-span"></div>
+          </div>
+        </div>
+      </div>
+      <hr class="sr-only" hidden />
+
+      <main id="_main" class="content layout-about" role="main">
+        <nav id="breadcrumbs" class="screen-only">
+          <ul></ul>
+        </nav>
+        <article class="page mb6" role="article">
+          <header>
+            <nav id="breadcrumbs" class="screen-only">
+              <ul>
+                <li><a href="/">Home</a></li>
+
+                <li>
+                  <span>/</span>
+                  <span>About</span>
+                </li>
+              </ul>
+            </nav>
+            <h1 class="page-title">About</h1>
+          </header>
+
+          <div>
+            <h2>Hello world!</h2>
+            <p>Hi there, I'm Sandy.</p>
+            <p>I'm an adventurer, a creator and a developer.</p>
+            <p>
+              I'm currently working at
+              <a href="https://gymaware.com/">GymAware</a> as a web application
+              developer and
+              <a href="https://www.anu.edu.au/"
+                >Australian National University</a
+              >
+              as an academic tutor.
+            </p>
+            <p>
+              I come from Shanghai, China and live in Canberra, Australia after
+              I completed my study.
+            </p>
+            <p>Pleaseh check my resume if you wish to know more about me.</p>
+          </div>
+
+          <style>
+            @media (max-width: 800px) {
+              .resize1 {
+                width: 150px !important;
+              }
+            }
+          </style>
+        </article>
+
+        <hr class="dingbat related mb6" />
+
+        <footer class="content" role="contentinfo">
+          <hr />
+
+          <nav class="legal">
+            <small>
+              <a class="heading flip-title" href="/license.html">License</a>
+              |
+
+              <a class="heading flip-title" href="/legal.html">Legal</a>
+            </small>
+          </nav>
+
+          <p>
+            <small>Designed by Sandy Zhao in 2023. All rights reserved.</small>
+
+            <small
+              >Powered by
+              <a class="external" href="https://hydejack.com/">Hydejack</a>
+              v<span id="_version">9.1.6.</span></small
+            >
+          </p>
+          <hr class="sr-only" />
+        </footer>
+      </main>
     </hy-push-state>
 
     <!--[if gt IE 10]><!---->
@@ -497,7 +536,9 @@ Powered by Hydejack v9.1.6 <https://hydejack.com/>
 
       <template id="_animation-template">
         <div class="animation-main fixed-top">
-          <nav id="breadcrumbs" class="screen-only"><ul></ul></nav>
+          <nav id="breadcrumbs" class="screen-only">
+            <ul></ul>
+          </nav>
           <div class="content">
             <div class="page"></div>
           </div>
