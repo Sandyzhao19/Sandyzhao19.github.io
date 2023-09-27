@@ -53,6 +53,8 @@ menu:
     url:               /about
   - title:             Portfolio
     url:               /portfolio
+  - title:             Resume
+    url:               /resume  
 
 legal:
   - title: License
