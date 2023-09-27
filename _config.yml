@@ -50,13 +50,15 @@ author:
 # Add links to the sidebar.
 menu:
   - title:             About
-    url:               /about.html
+    url:               /about
+  - title:             Portfolio
+    url:               /portfolio
 
 legal:
   - title: License
-    url:  /license.html
-  - title: Legal
-    url:  /legal.html
+    url:  /license
+  - title: Notice
+    url:  /notice
 
 # Theme
 # ---------------------------------------------------------------------------------------
